@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbnormalHeartbeatDetected" xml:space="preserve">
+    <value>检测到一次到 {0} 的异常心跳。</value>
+  </data>
+  <data name="AnotherTransactionIsRunning" xml:space="preserve">
+    <value>另一个事务正在此连接上运行。</value>
+  </data>
+  <data name="AuthenticationFailed" xml:space="preserve">
+    <value>到数据库 “{0}@{1}:{2}/{3}” 的验证失败。</value>
+  </data>
+  <data name="CommandTextIsEmpty" xml:space="preserve">
+    <value>命令文本是空字符串。</value>
+  </data>
+  <data name="ConnectionDisconnected" xml:space="preserve">
+    <value>连接已断开。</value>
+  </data>
+  <data name="ConnectionFailed" xml:space="preserve">
+    <value>无法连接到 “{0}:{1}”。</value>
+  </data>
+  <data name="ConnectionNotReady" xml:space="preserve">
+    <value>连接还没有准备好执行命令。</value>
+  </data>
+  <data name="ConnectionStringIsEmpty" xml:space="preserve">
+    <value>连接字符串是空字符串。</value>
+  </data>
+  <data name="DatabaseNameExceedsLimit" xml:space="preserve">
+    <value>数据库名称超过了 {0} 个字符。</value>
+  </data>
+  <data name="DatabaseNameIsEmpty" xml:space="preserve">
+    <value>数据库名称是空字符串。</value>
+  </data>
+  <data name="DatabaseTooBusy" xml:space="preserve">
+    <value>数据库 {0} 太忙。</value>
+  </data>
+  <data name="DataTypeNotSupported" xml:space="preserve">
+    <value>数据类型代码 {0} 不受支持。</value>
+  </data>
+  <data name="FailedToGetIPAddresses" xml:space="preserve">
+    <value>获取 {0} 的 IP 地址失败。</value>
+  </data>
+  <data name="InvalidHosts" xml:space="preserve">
+    <value>无效的数据库服务主机信息。</value>
+  </data>
+  <data name="NeedsToCallMoveNext" xml:space="preserve">
+    <value>需要首先调用 MoveNextAsync。</value>
+  </data>
+  <data name="NotEnoughBufferSpace" xml:space="preserve">
+    <value>缓冲区空间不足。</value>
+  </data>
+  <data name="OperationTimeout" xml:space="preserve">
+    <value>操作已经超时。</value>
+  </data>
+  <data name="PasswordExceedsLimit" xml:space="preserve">
+    <value>数据库用户密码超过了 {0} 个字符。</value>
+  </data>
+  <data name="RollbackTransactionFailed" xml:space="preserve">
+    <value>回滚数据库事务失败。</value>
+  </data>
+  <data name="SavepointNameIsEmpty" xml:space="preserve">
+    <value>保存点的名称是空的。</value>
+  </data>
+  <data name="StreamLengthExceedsLimit" xml:space="preserve">
+    <value>流的长度超过了 {0} GiB。</value>
+  </data>
+  <data name="StringTerminatorNotFound" xml:space="preserve">
+    <value>没有找到字符串的结束位置。</value>
+  </data>
+  <data name="TooManyConnectionsWarning" xml:space="preserve">
+    <value>服务器 {0} 报告了一个太多连接（{1}/{2}）的错误。</value>
+  </data>
+  <data name="TooManyParameters" xml:space="preserve">
+    <value>命令参数超过了 {0} 个。</value>
+  </data>
+  <data name="TransactionNotRunning" xml:space="preserve">
+    <value>事务已结束或尚未启动。</value>
+  </data>
+  <data name="UnknownBackendMessage" xml:space="preserve">
+    <value>未知的数据库服务消息类型 '{0}'，消息长度 {1}。</value>
+  </data>
+  <data name="UserNameExceedsLimit" xml:space="preserve">
+    <value>数据库用户名称超过了 {0} 个字符。</value>
+  </data>
+  <data name="UserNameIsEmpty" xml:space="preserve">
+    <value>数据库用户名是空的。</value>
+  </data>
+</root>
