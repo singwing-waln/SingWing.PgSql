@@ -24,7 +24,7 @@
 		<Title>SingWing.PgSql</Title>
 		<Version>7.0.0</Version>
 		<Description>SingWing.PgSql is an open-source .NET connector for PostgreSQL, using IAsyncEnumerable instead of IDataReader to retrieve result sets, supporting for receiving and sending data using Memory.</Description>
-		<PackageProjectUrl>https://github.com/singwing/pgsql</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/singwing-waln/SingWing.PgSql</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>singwing.png</PackageIcon>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
